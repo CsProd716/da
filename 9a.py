@@ -6,7 +6,7 @@ def bubble(*l):
                 l[j],l[j+1] = l[j+1],l[j]
     return l
 
-x = bubble([int(x) for x in input.split()])
+x = bubble([int(x) for x in input().split()])
 print("Sorted list:")
 print(x)
 
