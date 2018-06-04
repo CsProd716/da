@@ -10,12 +10,14 @@ class student:
         student.count+=1
 studlist = []
 while(1):
-    i = str(input("Enteries done"))
+    i = str(input("Enteries done:"))
     if i.lower() == "yes":
         break
-    name = input("Enter name")
-    usn = input("Enter usn")
-    subject = input("Enter subject")
+    print()
+    name = input("Enter name:")
+    usn = input("Enter usn:")
+    subject = input("Enter subject:")
+    print()
     r = student(name,usn,subject)
     studlist.append(r)
 for i in studlist:
