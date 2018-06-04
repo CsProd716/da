@@ -1,4 +1,5 @@
-from Mystring import*
+from Mystring import Palindrome
+from Mystring import CountVowel
 #import Palindrome
 #import CountVowel
 s = input("Enter a string")
