@@ -1,4 +1,4 @@
-def bubble(*l):
+def bubble(l):
     n = len(l)
     for i in range(n):
         for j in range(0,n-i-1):
