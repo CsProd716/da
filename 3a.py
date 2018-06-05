@@ -10,7 +10,7 @@ def retrive(dic):
     print("The price of ",s,":", dic[s])
     return
 
-def same(dic):#has to be corrected
+def same(dic):
     new = {}
     for k,v in dic.iteritems():
         new.setdefault(v,[]).append(k)
