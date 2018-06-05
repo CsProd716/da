@@ -14,12 +14,8 @@ class listadder(Adder):
     return x+y
 class dictadder(Adder):
   def add(self,x,y):
-    new={}
-    for k in x.keys():
-      new[k]=x[k]
-    for k in y.keys():
-      new[k]=y[k]
-    return new
+    x.update(y)
+    return x
 x=Adder()
 print(x.add(1,2))
 x=listadder()
