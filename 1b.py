@@ -10,9 +10,8 @@ def stats(s):
                    c=c
                else:    
                    c+=1
-        file.seek(0)
-        for word in file.read().split():
-            w+=1
+            for word in line.split():
+                w+=1
         file.close()
         
     print("Line Count:",i)
